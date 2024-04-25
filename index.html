@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+    <!-- Metadata for the page-->
+    <head> 
+    <title>Drew's Website</title>  <!--Page Title-->
+    <link rel="stylesheet" href="style.css" <!--Links style sheet to htlm-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"> <!--Fits website to any display-->
+    </head> 
+    <meta charset="UTF-8">
+
+    <!--All visible content here-->
+    <body>
+
+        <h1>My Homepage</h1> <!--Main page headder-->
+
+        <p>woah I made a really cool website</p> <!--Paragraph-->
+        <p2>test test test</p2>
+
+        <img alt="Smile :D"
+             src="https://assets.codepen.io/6093409/smiley-face.png">
+
+        <!--Adding content in Javascript-->
+        <script>
+            const smiley = document.querySelector("#smiley");
+
+            smiley.addEventListener("click", () => {
+                alert('Smiley says "Welcome!"');
+            });
+        </script>
+
+    </body> 
+</html>
