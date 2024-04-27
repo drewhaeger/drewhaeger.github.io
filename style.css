@@ -43,3 +43,28 @@ h1 {
         width: 100%;
     }
 }
+
+.box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.red {
+    background: red;
+}
+.orange {
+    background: orange;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
+}
+.blue {
+    background: blue;
+}
+.indigo {
+    background: indigo;
+}
